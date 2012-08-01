@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient_background">
+    
+
+    <ImageView android:layout_height="fill_parent"
+               android:layout_width="fill_parent"
+               android:background="@drawable/tiled_background"
+               android:scaleType="center"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical" >
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <nl.benbrucker.statisticscalc.DrawCurve
+        android:id="@+id/normal_curve"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3" />
+    
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <ExpandableListView
+        android:id="@+id/ExpList"
+        android:textSize="20sp"
+        android:headerDividersEnabled="false"
+        android:dividerHeight="5dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:layout_width="match_parent" 
+        android:groupIndicator="@null"/>   
+        </LinearLayout>
+        
+        <Button 
+        android:id="@+id/Confirm_Button"
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Confirm"
+	    android:layout_gravity="center_horizontal|bottom"
+	    />
+
+</FrameLayout>

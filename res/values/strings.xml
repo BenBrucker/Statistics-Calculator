@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, StatisticsCalcActivity!</string>
+    <string name="app_name">Statistics Converter</string>
+    <color name="ExpandChildBg">#222222</color>
+    <color name="ExpandGroupBg">#000000</color>
+    <color name="ApplicationBg">#000000</color>
+    <color name="TextColor">#FFFFFF</color>
+
+</resources>
